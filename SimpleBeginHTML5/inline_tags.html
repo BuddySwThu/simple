@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Inline Tags Demo</title>
+</head>
+<body>
+	<main>
+		<h1><strong>Inline Tags</strong></h1>
+		<span>
+			Why do we bother with inline elements? There are certainly times we want to mark up content, but we don't want to insert the line breaks around them. The &lt;span> tag was the first to give you that ability, but it was mosstly used to style the code, and we don't want to do that. Some of the newer tags that still separate content and style are listed below. Remember, inline tags can
+			flow next to each other and don't cause a line break before and after the element. We have seen this links and images.
+		</span>
+		<hr>
+
+		<section title="1">
+			<h2>Citing a source - cite</h2>
+			<p>The &lt;cite> makes it much easier for people and bots to search the code for this specific infomation.</p>
+			<span>A great reference for these and other elements is </span>
+			<a href="https://fap.fpt.edu.vn/Default.aspx" target="_blank"><cite>https://fap.fpt.edu.vn/Default.aspx</cite></a>
+			<hr>
+		</section>
+
+		<section title="2">
+			<h2>Defining your abbreviations - abbr</h2>
+			<p>
+				The &lt;abbr> will display an abbreviation on the browser. But if a title attribute is specified in the tag, the title will appear when the mouse hovers over the abbreviation. Screen readers also provide the title information.
+			</p>
+			<span>The days of the week are often abbresviated: </span>
+			<abbr> 
+				<abbr title="Sunday">Sun,</abbr>
+				<abbr title="Monday">Mon,</abbr>
+				<abbr title="Tuesday">Tue,</abbr>
+				<abbr title="Wednesday, Thursday, Friday, Saturday">etc...</abbr>
+			</abbr>
+			<hr>
+		</section>
+		
+		<section title="3">
+			<h2>Specifying the use of time - time</h2>
+			<p>
+				<span>The &lt;time> is again a completely semantic tag that can be used to search for specific information.</span>
+
+				<br><br><span>The party starts at 9:00pm</span>
+
+				<br><br><span>The party took place on New Year's Eve</span>
+			</p>
+			<hr>
+		</section>
+
+		<section title="4">
+			<h2>Identifying code fragments - code</h2>
+			<p>The &lt;code> tends to be displayed in a different font, but also has the semantic meaning to convey information to as many people as posible
+			</p>
+			<span>I have been trying to learn how to write html but my <code>img</code> elements never seem to work.</span>
+			<hr>
+		</section>
+
+		<section title="5">
+			<h2>Using subscript and superscripts - sub and sup</h2>
+			The &lt;sub> and &lt;sup> elements are used to create the super and subscripts.
+			<p>
+				Ex: (x+y)<cite><sup>3</sup></cite> or H<cite><sub>2</sub></cite>O.
+			</p>
+			In the past, people would often paste mathematical images into the page. But images didn't convey the same meaning to all users.
+			<hr>
+		</section>
+	</main>
+</body>
+</html>
