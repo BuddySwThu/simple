@@ -15,7 +15,7 @@ body{
 
 header{
 	background-color: #010101;
-	background-image: url(.../images/hw1-W2.jpg);
+	background-image: url('../images/hw1-W2.jpg');
 	padding-top: 1%;
 
     display: block;
