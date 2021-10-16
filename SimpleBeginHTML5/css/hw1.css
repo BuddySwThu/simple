@@ -11,11 +11,11 @@ body{
 }
 
 header{
-	background-color: #010101;
+	background-color: #111fff;
 	background-image: url("https://raw.githubusercontent.com/BuddySwThu/simple/main/SimpleBeginHTML5/images/hw1-W2.jpg");
 	padding-top: 1%;
 
-    display: block;
+        display: block;
 	text-align: center;
 	background-repeat:  no-repeat;
 	background-size: 100%;
@@ -45,7 +45,7 @@ nav a{
 }
 
 a.active{
-    color: #FF0000;
+        color: #FF0000;
 	background-color: #ffffff;
 	font-weight: bold;
 	opacity: 1;
@@ -83,7 +83,7 @@ aside{
 }
 
 a img{
-    display: block;
+        display: block;
 	border: groove #000000;
 	width: 80%;
 	margin: 3.5% 10% 6.5%;
