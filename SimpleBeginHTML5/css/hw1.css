@@ -12,7 +12,7 @@ body{
 
 header{
 	background-color: #010101;
-	background-image: url(https://raw.githubusercontent.com/BuddySwThu/simple/main/SimpleBeginHTML5/images/hw1-W2.jpg);
+	background-image: url("https://raw.githubusercontent.com/BuddySwThu/simple/main/SimpleBeginHTML5/images/hw1-W2.jpg");
 	padding-top: 1%;
 
     display: block;
