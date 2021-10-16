@@ -32,11 +32,11 @@ h1{
 nav a{
 	display: inline-block;
 	text-decoration: none;
-	margin: 2% 4% 7% 4%;
-	padding: 2%;
-	border-radius: 11px;
+	margin: 0 4% 5% 4%;
+	padding: 1%;
+	border-radius: 10px;
 
-	background-color: #FAFAD2;
+	background-color: #ffffff;
 	color: #000000;
 	font-size: 100%;
 	opacity: 0.2;
@@ -77,9 +77,9 @@ aside{
 	width: 25%;
 	min-width: 125px;
 	overflow: auto;
-	margin-right: 2%;
+	margin-right: 4% 4%;
 	height: 115vh;
-	background-color: #808090;
+	background-color: #FAFAD2;
 }
 
 a img{
