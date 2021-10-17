@@ -1,13 +1,9 @@
 body{
-	-webkit-padding: 1.5%;
-	-moz-padding: 1.5%;
-	-ms-padding: 1.5%;
-	-o-padding: 1.5%;
+	background-color: black;
+}
 
-	-webkit-margin: 1.5%;
-	-moz-margin: 1.5%;
-	-ms-margin: 1.5%;
-	-o-margin: 1.5%;
+p{
+	color: whitesmoke;
 }
 
 header{
