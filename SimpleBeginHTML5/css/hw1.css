@@ -1,4 +1,19 @@
 body{
+/*	-webkit-padding: 1.5%;
+	-moz-padding: 1.5%;
+	-ms-padding: 1.5%;
+	-o-padding: 1.5%;
+
+	-webkit-margin: 1.5%;
+	-moz-margin: 1.5%;
+	-ms-margin: 1.5%;
+	-o-margin: 1.5%;
+
+    -webkit-background-color: black;
+	-moz-background-color: black;
+	-ms-background-color: black;
+	-o-background-color: black;*/
+
 	background-color: black;
 }
 
@@ -8,6 +23,7 @@ p{
 
 header{
 	background-repeat:  no-repeat;
+	/*background-size: 100%;*/
 	background-size: 100% 120%;
 	background-image: url("https://i.imgur.com/ryhE9Es.gif?noredirect");
 	padding-top: 1%;
@@ -110,9 +126,9 @@ h2{
 
 table{
 	font-family: "Times New Roman", Arial, Helvetica;
-	font-size: 0.9em;
+	font-size: 1.4em;
 	font-weight: lighter;
-	line-height: 25px;
+	line-height: 60px;
 	width: 90%;
 	margin-left: 40px;
 }
@@ -143,6 +159,12 @@ td:first-child{
 	padding-left: 10px;
 	text-align: left;
 }
+
+/*td:last-child:hover{
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+	background-image: url("https://64.media.tumblr.com/32184a12fa43c3e73e038a131d649593/7a4117084496aa94-f9/s1280x1920/a742750fcd2feb8e4871eb76708124df88cb82e6.jpg");
+	}*/
 
 tr:nth-child(n+2):hover{
 	opacity: 1.3;
